@@ -1,5 +1,5 @@
-aiogram==3.5.1
-aiohttp==3.9.5
-openpyxl
+aiogram==3.21.0
+aiohttp
 pandas
+openpyxl
 
