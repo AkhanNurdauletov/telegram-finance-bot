@@ -5,8 +5,11 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from handlers import router  # импортируем router из handlers.py
 from finance_db import init_db
 import os
-from config import BOT_TOKEN
+from dotenv import load_dotenv
 
+load_dotenv()
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 
 async def main():
